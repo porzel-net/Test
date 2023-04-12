@@ -6,4 +6,6 @@ public class Test {
     public static void main(String[] args) {
         System.out.println(version);
     }
+
+    public static void hello() {System.out.println("Hello");}
 }
