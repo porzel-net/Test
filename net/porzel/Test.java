@@ -1,9 +1,9 @@
 package net.porzel;
 
 public class Test {
-    private String version = "a.1";
+    private static final String version = "a.1";
 
     public static void main(String[] args) {
-        System.out.println("Test");
+        System.out.println(version);
     }
 }
